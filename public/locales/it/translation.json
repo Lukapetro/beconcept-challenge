@@ -1,0 +1,10 @@
+{
+  "search_placeholder": "Cerca progetti",
+  "vitals_title": "Vitali",
+  "vitals_section_title_1": "Tempi di attività",
+  "vitals_section_title_2": "Tempi di caricamento",
+  "vitals_section_title_3": "Punteggio lighthouse",
+  "vitals_table_header_1": "Pagina",
+  "vitals_table_header_2": "Tempo di caricamento",
+  "vitals_table_header_3": "Punteggio"
+}

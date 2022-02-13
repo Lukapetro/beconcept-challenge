@@ -11,13 +11,20 @@ import {
   OutlineLogoutIcon,
 } from '../icons'
 import { Avatar, Badge, Input, Dropdown, DropdownItem, WindmillContext } from '@windmill/react-ui'
+import { useTranslation } from 'react-i18next';
+import Emoji from './Emoji';
 
 function Header() {
   const { mode, toggleMode } = useContext(WindmillContext)
   const { toggleSidebar } = useContext(SidebarContext)
+  const { t, i18n } = useTranslation();
 
   const [isNotificationsMenuOpen, setIsNotificationsMenuOpen] = useState(false)
   const [isProfileMenuOpen, setIsProfileMenuOpen] = useState(false)
+
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+  };
 
   function handleNotificationsClick() {
     setIsNotificationsMenuOpen(!isNotificationsMenuOpen)
@@ -46,12 +53,33 @@ function Header() {
             </div>
             <Input
               className="pl-8 text-gray-700"
-              placeholder="Search for projects"
+              placeholder={t('search_placeholder')}
               aria-label="Search"
             />
           </div>
         </div>
         <ul className="flex items-center flex-shrink-0 space-x-6">
+          {/* <!-- Language toggler --> */}
+          <li className="flex">
+            {i18n.language === 'it' ? (
+              <button
+                className="rounded-md focus:outline-none"
+                onClick={() => changeLanguage("en")}
+                aria-label="Change language"
+              >
+                <Emoji symbol="🏴󠁧󠁢󠁥󠁮󠁧󠁿" label="english" />
+              </button >
+            ) : (
+              <button
+                className="rounded-md focus:outline-none"
+                onClick={() => changeLanguage("it")}
+                aria-label="Change language"
+              >
+                <Emoji symbol="🇮🇹" label="italian" />
+              </button >
+            )
+            }
+          </li>
           {/* <!-- Theme toggler --> */}
           <li className="flex">
             <button

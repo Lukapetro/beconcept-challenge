@@ -1,13 +1,10 @@
 import React from 'react'
-
 import PageTitle from '../components/Typography/PageTitle'
 
-function Blank() {
+export default function ECommerce() {
   return (
     <>
-      <PageTitle>Blank</PageTitle>
+      <PageTitle>E-Commerce</PageTitle>
     </>
   )
 }
-
-export default Blank

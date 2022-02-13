@@ -1,7 +1,7 @@
 const routes = [
   {
-    path: '/app/vitals', 
-    icon: 'HomeIcon', 
+    path: '/app/vitals',
+    icon: 'HomeIcon',
     name: 'Vitals',
   },
   {

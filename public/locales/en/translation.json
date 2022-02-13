@@ -1,0 +1,10 @@
+{
+  "search_placeholder": "Search for projects",
+  "vitals_title": "Vitals",
+  "vitals_section_title_1": "Uptime",
+  "vitals_section_title_2": "Loading times",
+  "vitals_section_title_3": "Lighthouse score",
+  "vitals_table_header_1": "Page",
+  "vitals_table_header_2": "Loading Time",
+  "vitals_table_header_3": "Score"
+}

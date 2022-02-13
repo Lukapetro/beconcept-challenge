@@ -19,11 +19,9 @@ This project was made as challenge for [Beconcept](https://beconcept.studio/)
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-
 ### Run now
 
-You can run the project on [this link](https://happy-jones-f86c19.netlify.app/login)
+You can see a live demo of the project at [this link](https://happy-jones-f86c19.netlify.app/login)
 
 ### Local installation
 
@@ -52,7 +50,7 @@ npm run start
 
 ## Contact
 
-Luka Petrovic - [@lukapetro\_](https://www.linkedin.com/in/lukapetro/) - lucapetro93@gmail.com
+Luka Petrovic - [@lukapetro](https://www.linkedin.com/in/lukapetro/) - lucapetro93@gmail.com
 
 Project Link: [https://github.com/lukapetro/beconcept-challenge](https://github.com/lukapetro/beconcept-challenge)
 

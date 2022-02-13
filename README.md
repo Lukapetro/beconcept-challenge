@@ -1,55 +1,61 @@
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://happy-jones-f86c19.netlify.app/login)
 
 This project was made as challenge for [Beconcept](https://beconcept.studio/)
 
-### Built With
+### Tech Stack
 
-* [React.js](https://reactjs.org/)
+- [React.js](https://reactjs.org/)
+- [Windmill](https://windmillui.com/)
+- [Tailwind](https://tailwindcss.com/)
+- Versioned on [Github](https://github.com/Lukapetro/beconcept-challenge)
+- Git hooks by [Husky](https://typicode.github.io/husky/#/)
+- Deployed on [Netlify](https://www.netlify.com/)
 
 <!-- GETTING STARTED -->
+
 ## Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+### Run now
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+You can run the project on [this link](https://happy-jones-f86c19.netlify.app/login)
 
-### Installation
+### Local installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/lukapetro/beconcept-challenge.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+To get a local copy up and running follow these simple steps:
 
+1. Clone the repo
 
-<!-- USAGE EXAMPLES -->
-## Usage
+```sh
+git clone https://github.com/lukapetro/beconcept-challenge.git
+```
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+2. Navigate to folder and install NPM packages
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+```sh
+cd beconcept-challenge
+npm install
+```
+
+2. Run it
+
+```sh
+npm run start
+```
 
 <!-- CONTACT -->
+
 ## Contact
 
-Your Name - [@lukapetro_](https://twitter.com/@lukapetro_) - lucapetro93@gmail.com
+Luka Petrovic - [@lukapetro\_](https://www.linkedin.com/in/lukapetro/) - lucapetro93@gmail.com
 
 Project Link: [https://github.com/lukapetro/beconcept-challenge](https://github.com/lukapetro/beconcept-challenge)
+
+<!-- MARKDOWN LINKS & IMAGES -->
+
+[product-screenshot]: src/assets/img/beconcept-challenge.png
